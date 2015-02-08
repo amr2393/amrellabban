@@ -1,0 +1,864 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"top",
+				"top_f"
+			],
+			[
+				"ta",
+				"tag_list"
+			],
+			[
+				"tag",
+				"tag"
+			],
+			[
+				"fr",
+				"frequency"
+			],
+			[
+				"art",
+				"artist_name"
+			],
+			[
+				"Arti",
+				"ArtistTag"
+			],
+			[
+				"tag_",
+				"tag_name"
+			],
+			[
+				"arti",
+				"artist_name"
+			],
+			[
+				"Art",
+				"ArtistTag"
+			],
+			[
+				"rece",
+				"receiver"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"WEB",
+				"WEBSITE_NAME"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"is",
+				"is_public"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"disp",
+				"display_options"
+			],
+			[
+				"display_",
+				"display_options_id"
+			],
+			[
+				"num",
+				"num_displays"
+			],
+			[
+				"max",
+				"maximum_success_rate_index"
+			],
+			[
+				"hashi",
+				"hash_id"
+			],
+			[
+				"random",
+				"random_index"
+			],
+			[
+				"max_",
+				"max_emails_per_month"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"receive_",
+				"receive_emails"
+			],
+			[
+				"WEBS",
+				"WEBSITE_URL"
+			],
+			[
+				"hash",
+				"hash_id"
+			],
+			[
+				"background",
+				"background-medium"
+			],
+			[
+				"num_r",
+				"num_receivers"
+			],
+			[
+				"back",
+				"background-light"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"bac",
+				"background-heavy"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"t",
+				"text-decoration"
+			],
+			[
+				"id",
+				"id_email"
+			],
+			[
+				"ba",
+				"background-light"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"sh",
+				"box-shadow"
+			],
+			[
+				"text-",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "contact.html",
+			"settings":
+			{
+				"buffer_size": 4293,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/amr/Documents/amrellabban/app.yaml",
+			"settings":
+			{
+				"buffer_size": 434,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/amr/Documents/amrellabban/resources/kickstrap.less",
+			"settings":
+			{
+				"buffer_size": 4283,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nLaTeXTools:\n----------\n\n  LaTeXTools Plugin version 2013-06-22 changelog:\n  \n  Minor fixes, while I work on a couple of BIG new features...\n  \n  Bugs fixed:\n  \n  - Fixed overeager beamer overlay specification ('<' would trigger in math mode)\n  - Robustify latexCommand\n  - Small fix in LaTeX.sublime-commands\n  \n  \n  \n    \n\n  LaTeXTools Plugin version 2013-06-21 changelog:\n  \n  Two new features highly demanded features, thanks to contributor Ulrich Gabor!\n  \n  New features:\n  \n  - Improved amsmath equation support, thanks to constructive criticism from user `ghuba'\n  - Added function to delete all temp/auxiliary files with 'C-l, backspace' (Ulrich Gabor)\n  - First cut at tex engine selection!!! % !TEX program = pdflatex|xelatex|lualatex\n    at the top of the (root) file selects the default engine. You can also use \"TS-program\"\n    instead of \"program\" (for TeXshop veterans). For now, this only works with TeXLive (all\n    platforms), not MiKTeX, because it relies on latexmk. (Ulrich Gabor)\n  \n  Bugs fixed:\n  \n  - Fixed an ST1-ism in viewPDF\n  - Slightly robustified latex_cite_completions\n  \n  \n  \n    \n\n  LaTeXTools Plugin version 2013-06-19 changelog:\n  \n  A few more fixes and new featurettes :)\n  \n  New features:\n  \n  - \\texttt{} snippet (C-l,C-t) (contributed by Ray Fang)\n  - Completions for amsmath equations (see LaTeX.sublime-completions)\n  \n  Bugs fixed:\n  \n  - Updated README to reflect the new Skim preset for ST2. Yay!\n  - Fixed sections regexp so \\section* etc. is captured (P. Kazmierczak)\n  \n    \n\n  LaTeXTools Plugin version 2013-06-18 changelog:\n  \n  I'm back! Finally, I anticipate having some spare time to work on LaTeXTools! This will be\n  the first of hopefully many updates! Thank you for your continued support and PATIENCE :)\n  \n  New features:\n  \n  - Basic support for biblatex bibliographies (contributed by Jeremy Jay)\n  \n  Bugs fixed:\n  \n  - When jumping to PDF using the keybinding (C-l,j), honor the\n    \"keep_focus\" setting and the focus toggle.\n  \n  - Added \"/opt/local/bin\" path on OSX. Note: this is a temporary fix; I\n    am planning a slight refactoring of build configuration that will\n    hopefully give greater flexibility.\n  \n    \n",
+			"settings":
+			{
+				"buffer_size": 2238,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 5111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/amr/Documents/amrellabban/resources/kickstrap.css",
+			"settings":
+			{
+				"buffer_size": 92970,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "research.html",
+			"settings":
+			{
+				"buffer_size": 5907,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home.html",
+			"settings":
+			{
+				"buffer_size": 3757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "projects.html",
+			"settings":
+			{
+				"buffer_size": 7329,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 49.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/amr/Documents/amrellabban/resources/home.css",
+		"/Users/amr/Documents/nx.key",
+		"/Users/amr/Documents/amrellabban/app.yaml",
+		"/Users/amr/Downloads/joachims.bib",
+		"/Users/amr/Dropbox/CV/Latex based/modern/amrTexCvOnePage.tex",
+		"/Users/amr/Documents/amrellabban/resources/theme.less",
+		"/Users/amr/Documents/amrellabban/resources/kickstrap.less",
+		"/Users/amr/Documents/helloworld/app.yaml",
+		"/Users/amr/Documents/helloworld/index.html",
+		"/Users/amr/Documents/helloworld/helloworld.py",
+		"/Users/amr/Documents/WhichGig/whichgig/Gigup/gigapp/models.py",
+		"/Users/amr/Documents/WhichGig/whichgig/Gigup/artists/models.py",
+		"/Users/amr/Documents/WhichGig/whichgig/Gigup/locations/models.py",
+		"/Users/amr/Documents/WhichGig/whichgig/Gigup/manage.py",
+		"/Users/amr/Downloads/index.html",
+		"/Users/amr/Documents/WhichGig/whichgig/gigup/gigup/__init__.py",
+		"/Users/amr/Dropbox/Journal/bib/vgg_other.bib",
+		"/C/Program Files/CecogAnalyzer-1.3.2/resources/rsrc/hmm/hmm_report.R",
+		"/C/Program Files/CecogAnalyzer-1.3.2/resources/rsrc/hmm/run_hmm.R",
+		"/C/Program Files/CecogAnalyzer-1.3.2/resources/rsrc/hmm/hmm.R",
+		"/F/AmrCeCogTest/AnalysisTest1/hmm/primary_primary_bysymbol/_summary/all_TrajectoryNumbers.txt",
+		"/C/Users/Amr/AppData/Roaming/CellCognition1.3.0/battery_package/Classifier/H2B0001/annotations/PLImages___P0001___T00001.xml",
+		"/C/Program Files/CecogAnalyzer-1.3.0/cecog/analyzer/celltracker.pyo",
+		"/F/AmrCeCogTest/Analysis/analyzed/0001/statistics/P0001__object_details_excel.txt",
+		"/C/Users/Amr/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/C/Users/Amr/Dropbox/isbi_review",
+		"/C/Users/Amr/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeXTools Preferences.sublime-settings",
+		"/C/Users/Amr/Dropbox/Journal/elsarticle.cls",
+		"/C/Users/Amr/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Amr/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Amr/Dropbox/ISBI/supp_figures.tex",
+		"/C/Users/Amr/Dropbox/ISBI/isbi_defect.tex",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/bottles/static/css/base.less",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/bottles/static/css/stats.less",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/bottles/static/css/bootstrap-2.0.4.min.css",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/bottles/static/css/bootstrap-responsive-2.0.4.min.css",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/marketing/websites.txt",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/marketing/emails/laughingsquid.txt",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/marketing/emails/uproxx.txt",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/marketing/emails/retronaut.txt",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/marketing/emails/brainpickings.txt",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/marketing/emails/boredpanda.txt",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/marketing/emails/boingboing.txt",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/marketing/emails/maria-popova-brainpickings.txt",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/marketing/emails/makeuseof.txt",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/marketing/emails/kaly-esengulov-makeuseof.txt",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/templates/base.html",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/bottles/views.py",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/bottles/models.py",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/bottles/management/commands/resend.py",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/bottles/management/commands/init.py",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/templates/index.html",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/templates/send_form.html",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/urls.py",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/templates/stats.html",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/templates/public.html",
+		"/C/Users/Amr/Documents/My Web Sites/Bottles/templates/send.html",
+		"/Users/ali/Desktop/resend.out",
+		"/Users/ali/Documents/Websites/Bottles/bottles/management/commands/init.py",
+		"/Users/ali/Documents/Websites/Bottles/bottles/management/commands/view_threads.py",
+		"/Users/ali/Documents/Websites/Bottles/bottles/management/commands/set_original_hash_ids.py",
+		"/Users/ali/Documents/Websites/Bottles/templates/send.html",
+		"/Users/ali/Documents/Websites/Bottles/templates/public.html",
+		"/Users/ali/Documents/Websites/Bottles/templates/send_reply_guide.html",
+		"/Users/ali/Documents/Websites/Bottles/dump.json",
+		"/Users/ali/Documents/Websites/Bottles/settings.py",
+		"/Users/ali/Documents/Websites/Bottles/templates/receive_success.html",
+		"/Users/ali/Documents/Websites/Bottles/templates/index.html",
+		"/Users/ali/Documents/Websites/Bottles/templates/stats.html",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/js/send-form.js",
+		"/Users/ali/Documents/Websites/Bottles/templates/send_index_guide.html",
+		"/Users/ali/Documents/Websites/Bottles/bottles/views.py",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/js/bg.js",
+		"/Users/ali/Documents/Websites/Bottles/templates/receive_index_guide.html",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/js/intro.js",
+		"/Users/ali/Documents/Websites/Arkitus/PRML/index.html",
+		"/Users/ali/Documents/Websites/Bottles/templates/send_success.html",
+		"/Users/ali/Documents/Websites/Bottles/bottles/display_options.py",
+		"/Users/ali/Documents/Websites/Bottles/templates/base.html",
+		"/Users/ali/Documents/Websites/Bottles/templates/send_form.html",
+		"/Users/ali/Documents/Websites/Bottles/bottles/models.py",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/js/sharing.js",
+		"/Users/ali/PG/Oxford/Documents/Paper/README",
+		"/Users/ali/PG/Oxford/Documents/mid_visit.txt",
+		"/Users/ali/Documents/Websites/Bottles/templates/receive_form.html",
+		"/Users/ali/Documents/Websites/Bottles/urls.py",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/css/base.less",
+		"/Users/ali/Documents/Websites/Bottles/README",
+		"/Users/ali/Documents/Websites/Bottles/templates/receive.html",
+		"/Users/ali/Documents/Websites/Bottles/templates/unsubscribe_success.html",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/js/receive-form.js",
+		"/Users/ali/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/ali/Documents/Websites/Bottles/bottles/admin.py",
+		"/Users/ali/Documents/Websites/Bottles/bottles/management/commands/add_initial_display_options.py",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/css/stats.less",
+		"/Users/ali/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ali/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/img/credit.txt",
+		"/Users/ali/Documents/Websites/Bottles/bottles/hashing.py",
+		"/Users/ali/PG/Thesis/LaTeX/infthesis-template.tex",
+		"/Users/ali/PG/Oxford/Working/4_create_supermethods_single/detcomp3_det_test_aeroplane.txt",
+		"/Users/ali/PG/Oxford/Data/VOC2011/submissions/1657/input/results/VOC2011/Main/comp3_det_test_aeroplane.txt",
+		"/Users/ali/Desktop/Journal/2012/06 - June/Week 2.txt",
+		"/Users/ali/Documents/Websites/Bottles/bottles/display_texts.py",
+		"/Users/ali/PG/Oxford/Code/scripts/1_compute_performance_on_2008/step_1_compute_performance_on_2008.m",
+		"/Users/ali/PG/Oxford/Working/0_reproduce_evaluations/2011/3/1578/1578.score",
+		"/Users/ali/PG/Oxford/Working/0_reproduce_evaluations/2011/3/1578/1578.final_score",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/css/bg1.less",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/css/bg.less",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/js/less-1.3.0.min.js",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/css/bootstrap-2.0.4.min.css",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/js/bootstrap-2.0.4.min.js",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/js/send-focus.js",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/css/bg2.less",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/css/bg3.less",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/css/bg4.less",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/js/jquery-1.7.2.min.js",
+		"/Users/ali/Documents/Websites/Bottles/bottles/static/js/background-fade.js",
+		"/Users/ali/Downloads/Sublime Text 2.icns",
+		"/Users/ali/Documents/Websites/Bottles/project.sublime-project",
+		"/Users/ali/Documents/Websites/Bottles/templates/sign_up_form.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"receive_form.html",
+			"send_form.html",
+			"send_form.py",
+			"views.py",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"el-labban",
+			"foot",
+			"spell",
+			"padd",
+			"span",
+			"padding",
+			"g-plu",
+			"twi",
+			"required",
+			"shadow",
+			"message_hash",
+			"was_repl",
+			"filter",
+			"to me",
+			"Best,",
+			"faq",
+			"hand",
+			"register",
+			"#back",
+			"back",
+			"@highlight",
+			"@black",
+			"black",
+			"000",
+			"print",
+			"}}.",
+			"_text",
+			"#back",
+			"dotted",
+			"underlin",
+			"#highlight",
+			"9e3a42",
+			"margin-top: 50",
+			"SendMessageForm",
+			"SignUpForm",
+			"#send-guide-",
+			"#send-guide",
+			"#guide",
+			"#email",
+			"slideUp",
+			"print",
+			"#send#id_email",
+			"#send#id_message",
+			"#id_message",
+			"#id_email",
+			"sign_up_form",
+			"send_message_form",
+			"sign_up_form",
+			"back",
+			"send_",
+			"guide",
+			"shade",
+			"alert()",
+			"100",
+			"guide",
+			"family",
+			"fast",
+			"font-size",
+			"Lusitana",
+			".box-shadow"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"@darkest",
+			"@dark",
+			"_option",
+			"@highlight",
+			"SendForm",
+			"ReceiveForm",
+			"#send-guide #",
+			"#send #guide",
+			"#send-guide",
+			"#send #guide",
+			"#send #email",
+			"#send #id_email",
+			"#send #id_message",
+			"#send#id_message",
+			"#send#id_email",
+			"receive_form",
+			"send_form",
+			"receive_form",
+			"slow",
+			"Average",
+			".shadow"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "contact.html",
+					"settings":
+					{
+						"buffer_size": 4293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2784,
+								2784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/amr/Documents/amrellabban/app.yaml",
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/amr/Documents/amrellabban/resources/kickstrap.less",
+					"settings":
+					{
+						"buffer_size": 4283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2638,
+								2638
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 874.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 2238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2238,
+								2238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "about.html",
+					"settings":
+					{
+						"buffer_size": 5111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								837,
+								837
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 170.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/amr/Documents/amrellabban/resources/kickstrap.css",
+					"settings":
+					{
+						"buffer_size": 92970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 650845.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "research.html",
+					"settings":
+					{
+						"buffer_size": 5907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1142,
+								1209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "home.html",
+					"settings":
+					{
+						"buffer_size": 3757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1057,
+								993
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "projects.html",
+					"settings":
+					{
+						"buffer_size": 7329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7304,
+								7304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"base.htm",
+				"templates/base.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/ali/PG/Thesis/LaTeX/thesis.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 166.0,
+	"status_bar_visible": false
+}
